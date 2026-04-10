@@ -68,7 +68,7 @@ Check if content already exists in the palace before filing.
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `content` | string | **Yes** | Content to check |
-| `threshold` | number | No | Similarity threshold 0–1 (default: 0.9) |
+| `threshold` | number | No | Similarity threshold 0–1 (default: 0.85–0.87) |
 
 **Returns:** `{ is_duplicate, matches: [{ id, wing, room, similarity, content }] }`
 

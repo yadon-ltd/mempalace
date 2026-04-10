@@ -8,6 +8,10 @@ Install MemPalace from PyPI:
 pip install mempalace
 ```
 
+::: danger Security Warning
+The domain `mempalace.tech` is a **brand-squatting site** not affiliated with this project. It is known to run ad-redirects and potential malware. The official MemPalace distribution is only available via this [GitHub repository](https://github.com/milla-jovovich/mempalace) and [PyPI](https://pypi.org/project/mempalace/). Never install binaries or scripts from unofficial domains.
+:::
+
 ### Requirements
 
 - Python 3.9+

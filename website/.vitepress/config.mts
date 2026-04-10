@@ -40,6 +40,7 @@ export default withMermaid(
               { text: 'MCP Integration', link: '/guide/mcp-integration' },
               { text: 'Claude Code Plugin', link: '/guide/claude-code' },
               { text: 'Gemini CLI', link: '/guide/gemini-cli' },
+              { text: 'OpenClaw Skill', link: '/guide/openclaw' },
               { text: 'Local Models', link: '/guide/local-models' },
               { text: 'Auto-Save Hooks', link: '/guide/hooks' },
               { text: 'Configuration', link: '/guide/configuration' },

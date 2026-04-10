@@ -4,6 +4,14 @@ MemPalace provides 19 tools through the [Model Context Protocol (MCP)](https://m
 
 ## Setup
 
+### Setup Helper
+
+MemPalace includes a setup helper that prints the exact configuration commands for your environment:
+
+```bash
+mempalace mcp
+```
+
 ### Manual Connection
 
 ```bash
@@ -27,6 +35,7 @@ Claude calls `mempalace_search` automatically, gets verbatim results, and answer
 MemPalace works with any tool that supports MCP:
 
 - **Claude Code** — native via plugin or manual MCP
+- **OpenClaw** — via official skill, see [OpenClaw Skill](/guide/openclaw)
 - **ChatGPT** — via MCP bridge
 - **Cursor** — native MCP support
 - **Gemini CLI** — see [Gemini CLI guide](/guide/gemini-cli)
